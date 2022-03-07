@@ -28,15 +28,19 @@
         }
         .card-footer{
           text-align: center;
-          font-weight: 700;
+          font-weight: 500;
           font-size: 20px;
         }
         .card img{
           height: 60px;
           width: 60px;
         }
-        #clients-details div{
-          width: 500px;
+        #clients-details img{
+          width: 200px;
+        }
+        .nav-item{
+          margin-right: 20px;
+          margin-left: 20px;
         }
         nav{
           font-weight: 600;
@@ -61,7 +65,7 @@
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Abu Hajar</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg></span>
           </button>
 
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -76,7 +80,7 @@
                 <a class="nav-link" href="#">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT US</a>
+                <a class="nav-link" href="#contact_us">CONTACT US</a>
               </li>  
             </ul>
           </div>
@@ -95,21 +99,21 @@
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="static/background.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <img src="static/svg/Sprinkle.svg" alt="Los Angeles" class="d-block" style="width:100%;height: 300px;">
       <div class="carousel-caption">
         <h3>Abu Hajar</h3>
         <p>Services</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="static/background.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <img src="static/svg/Animated Shape.svg" alt="Chicago" class="d-block" style="width:100%;height: 300px;">
       <div class="carousel-caption">
         <h3>Abu Hajar</h3>
         <p>Services</p>
       </div> 
     </div>
     <div class="carousel-item">
-      <img src="static/background.jpg" alt="New York" class="d-block" style="width:100%">
+      <img src="static/svg/Wave.svg" alt="New York" class="d-block" style="width:100%;height: 300px;">
       <div class="carousel-caption">
         <h3>Abu Hajar</h3>
         <p>Services</p>
@@ -125,109 +129,83 @@
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
-      <div id="services" class="container">
+      <div id="services" class="container justify-content-aroun pt-5">
         <div class="container-fluid mt-3">
           <h3 style="text-align: center;">OUR SERVICES</h3>
         </div>
-        <div class="container mt-3 d-flex flex-wrap">
+        <div class="container mt-3 d-flex  flex-wrap">
             <div class="card card_width" >
                 <div class="card-body">
-                  <img src="static/Air_Conditioning.png" alt="Air Conditioning">
+                  <img src="static/services/Air_Conditioning.png" alt="Air Conditioning">
                 </div>
                 <div class="card-footer">Air Conditioning</div>
             </div>
             <div class="card card_width" >
                 <div class="card-body">
-                  <img src="static/Electrical.png" alt="Electrical">
+                  <img src="static/services/Electrical.png" alt="Electrical">
                 </div>
                 <div class="card-footer">Electrical</div>
             </div>
             <div class="card card_width" >
                 <div class="card-body">
-                  <img src="static/Plumbing.png" alt="Plumbing">
+                  <img src="static/services/Plumbing.png" alt="Plumbing">
                 </div>
                 <div class="card-footer">Plumbing</div>
             </div>
             <div class="card card_width" >
                 <div class="card-body">
-                  <img src="static/Carpentry.png" alt="Carpentry">
+                  <img src="static/services/Carpentry.png" alt="Carpentry">
                 </div>
                 <div class="card-footer">Carpentry</div>
               </div>
               <div class="card card_width" >
                   <div class="card-body">
-                    <img src="static/Masonry.png" alt="Masonry">
+                    <img src="static/services/Masonry.png" alt="Masonry">
                   </div>
                   <div class="card-footer">Masonry</div>
               </div>
               <div class="card card_width" >
                   <div class="card-body">
-                    <img src="static/Painting.png" alt="Painting">
+                    <img src="static/services/Painting.png" alt="Painting">
                   </div>
                   <div class="card-footer">Painting</div>
               </div>
               <div class="card card_width" >
                   <div class="card-body">
-                    <img src="static/Handyman.png" alt="Handyman">
+                    <img src="static/services/Handyman.png" alt="Handyman">
                   </div>
                   <div class="card-footer">Handyman</div>
               </div>
               <div class="card card_width" >
                 <div class="card-body">
-                  <img src="static/Renovation.png" alt="Renovation">
+                  <img src="static/services/Renovation.png" alt="Renovation">
                 </div>
                 <div class="card-footer">Renovation</div>
             </div>
             <div class="card card_width" >
                 <div class="card-body">
-                  <img src="static/Cleaning.png" alt="Cleaning">
+                  <img src="static/services/Cleaning.png" alt="Cleaning">
                 </div>
                 <div class="card-footer">Cleaning</div>
             </div>
             <div class="card card_width" >
               <div class="card-body">
-                <img src="static/Maintenance_contract.png" alt="Maintenance contract">
+                <img src="static/services/Maintenance_contract.png" alt="Maintenance contract">
                </div>
               <div class="card-footer">Maintenance contract</div>
             </div>
           </div>
       </div>
-      <div id="clients" class="container-fluid mt-3">
+      <div id="clients" class="container-fluid py-5">
         <h3 style="text-align: center;">OUR SATISFIED CLIENTS</h3>
         <div id="clients-details" class="d-flex justify-content-around flex-wrap">
-          <div>A-TECHNOLOGIES FZCO</div>
-          <div>BOTTOM LINE ADVERTISING LLC</div>
-          <div>PAST REGINA GROUP OF COMPANIES.</div>
-          <div>GOOD COMPANY INTERNATIONAL HOSPITALITY SERVICES.</div>
-          <div>GROUP OF THE ORCHESTRA RESTAURANT AND CAFÉ.</div>
-          <div>CAFÉ O RESTAURANT AND CAFÉ JUMEIRA BEACH RESIDANCE.</div>
-          <div>LEIL NHAR CAFÉ & RESTAURANT DUBAI FESTIVAL CITY,</div>
-          <div>MEADOWS VILLAS AND SPRINGS VILLAS.</div>
-          <div>UAE Exchange LLC.</div>
-          <div>AL MAZEROI BUILDING AL NADHA.</div>
-          <div>RASHID BHAQUIT BUILDING KARAMA.</div>
-          <div>AL SHAYA BUILDING KARAMA.</div>
-          <div>GROUP OF AL SHAYA TRADING COMPANY LLC.</div>
-          <div>SANDVIK MIDDLE EAST FZC</div>
-          <div>HYUNDAI ENGG & CONST LTD</div>
-          <div>HIGHLAND HOTEL</div>
-          <div>RELIANCE FREIGHT SYSTEMS LLC.</div>
-          <div>GOODRICH FACILITIES</div>
-          <div>PRIDE HOTEL APARTMENTS.</div>
-          <div>NASEEM DECOR LLC</div>
-          <div>KOBIAN GULF FZE</div>
-          <div>DUBAI COATING LTD. DRY DOCK.</div>
-          <div>PRESSION ELECTRICALS LLC.</div>
-          <div>LA RIVIERA APARTMENT</div>
-          <div>TRANSWORLD PROPERTIES.</div>
-          <div>BLOUDHAN CONTROL SYSTEM LLC.</div>
-          <div>BOTTOM LINE ADVETISE LLC.</div>
-          <div>RIVIERA REAL ESTATE.</div>
-          <div>UNIGLUF DEVELOPMENT LLC</div>
-          <div></div>
+         <div><img src="static/clients/uae-exchange-logo.jpg" alt="uae-exchange"></div>
+         <div><img src="static/clients/unigulf.png" alt="unigulf"></div>
+         <div><img src="static/clients/reliance.png" alt="reliance"></div>
+         <div><img src="static/clients/hyundai.jpg" alt="hyundai"></div>
         </div>
       </div>
-      <div style="background-color: #323754;color: white;">
+      <div id="contact_us" class="pt-5" style="background-color: #323754;color: white;">
         <h4 style="text-align: center;">CONTACT US</h4>
         <div class="d-flex justify-content-around pt-3 flex-wrap">
         <div style="padding: 10px;">
