@@ -8,12 +8,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Abu Hajar</title>
     <style>
-      #welcome{
-          background-image: url("static/background3.jpg");
-          height: 400px;
-          background-size: 100% auto;
-          background-repeat: no-repeat, no-repeat;
-        }
         .card_width{
         width:200px;
         height:150px;
@@ -71,13 +65,16 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#clients">CLIENTS</a>
+                <a class="nav-link" href="#about_us">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="#clients">CLIENTS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact_us">CONTACT US</a>
@@ -129,74 +126,87 @@
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
-      <div id="services" class="container justify-content-aroun pt-5">
+      <div id="services" class="container pt-5">
         <div class="container-fluid my-5">
           <h3 style="text-align: center;">OUR SERVICES</h3>
-          <h5 class="my-5" style="text-align: center;">AHTS specializes in Duct designing, designing of Air Conditioning systems and Heat Load Calculation. Our designing department carries out detailed studies and provides solutions in Air Conditioning, Refrigeration, Ventilation & Extract in Residential, Commercial and Industrial applications. Our main focus is in the Total Facilities Management area. In fact we are the solution providers for Mechanical, Electrical and Technical problems.</h5>
+          <h6 class="my-5" style="text-align: center;">AHTS specializes in Duct designing, designing of Air Conditioning systems and Heat Load Calculation. Our designing department carries out detailed studies and provides solutions in Air Conditioning, Refrigeration, Ventilation & Extract in Residential, Commercial and Industrial applications. Our main focus is in the Total Facilities Management area. In fact we are the solution providers for Mechanical, Electrical and Technical problems.</h6>
         </div>
-        <div class="container my-5 d-flex  flex-wrap">
-            <div class="card card_width" >
-                <div class="card-body">
-                  <img src="static/services/Air_Conditioning.png" alt="Air Conditioning">
-                </div>
-                <div class="card-footer">Air Conditioning</div>
-            </div>
-            <div class="card card_width" >
-                <div class="card-body">
-                  <img src="static/services/Electrical.png" alt="Electrical">
-                </div>
-                <div class="card-footer">Electrical</div>
-            </div>
-            <div class="card card_width" >
-                <div class="card-body">
-                  <img src="static/services/Plumbing.png" alt="Plumbing">
-                </div>
-                <div class="card-footer">Plumbing</div>
-            </div>
-            <div class="card card_width" >
-                <div class="card-body">
-                  <img src="static/services/Carpentry.png" alt="Carpentry">
-                </div>
-                <div class="card-footer">Carpentry</div>
-              </div>
-              <div class="card card_width" >
-                  <div class="card-body">
-                    <img src="static/services/Masonry.png" alt="Masonry">
-                  </div>
-                  <div class="card-footer">Masonry</div>
-              </div>
-              <div class="card card_width" >
-                  <div class="card-body">
-                    <img src="static/services/Painting.png" alt="Painting">
-                  </div>
-                  <div class="card-footer">Painting</div>
-              </div>
-              <div class="card card_width" >
-                  <div class="card-body">
-                    <img src="static/services/Handyman.png" alt="Handyman">
-                  </div>
-                  <div class="card-footer">Handyman</div>
-              </div>
-              <div class="card card_width" >
-                <div class="card-body">
-                  <img src="static/services/Renovation.png" alt="Renovation">
-                </div>
-                <div class="card-footer">Renovation</div>
-            </div>
-            <div class="card card_width" >
-                <div class="card-body">
-                  <img src="static/services/Cleaning.png" alt="Cleaning">
-                </div>
-                <div class="card-footer">Cleaning</div>
-            </div>
-            <div class="card card_width" >
-              <div class="card-body">
-                <img src="static/services/Maintenance_contract.png" alt="Maintenance contract">
-               </div>
-              <div class="card-footer">Maintenance contract</div>
-            </div>
+        <div class="container my-5 d-flex justify-content-around flex-wrap">
+          <div class="card card_width" >
+            <div class="card-body">
+              <img src="static/services/Maintenance_contract.png" alt="Maintenance contract">
+             </div>
+            <div class="card-footer" style="font-size: 15px;">Annual Maintenance contract</div>
           </div>
+          <div class="card card_width" >
+              <div class="card-body">
+                <img src="static/services/Air_Conditioning.png" alt="Air Conditioning">
+              </div>
+              <div class="card-footer">Air Conditioning</div>
+          </div>
+          <div class="card card_width" >
+              <div class="card-body">
+                <img src="static/services/Electrical.png" alt="Electrical">
+              </div>
+              <div class="card-footer">Electrical</div>
+          </div>
+          <div class="card card_width" >
+              <div class="card-body">
+                <img src="static/services/Plumbing.png" alt="Plumbing">
+              </div>
+              <div class="card-footer">Plumbing</div>
+          </div>
+          <div class="card card_width" >
+              <div class="card-body">
+                <img src="static/services/Carpentry.png" alt="Carpentry">
+              </div>
+              <div class="card-footer">Carpentry</div>
+          </div>
+          <div class="card card_width" >
+              <div class="card-body">
+                <img src="static/services/Painting.png" alt="Painting">
+              </div>
+              <div class="card-footer">Painting</div>
+          </div>
+          <div class="card card_width" >
+            <div class="card-body">
+              <img src="static/services/Renovation.png" alt="Renovation">
+            </div>
+            <div class="card-footer">Renovation</div>
+          </div>
+          <div class="card card_width" >
+              <div class="card-body">
+                <img src="static/services/Masonry.png" alt="Masonry">
+              </div>
+              <div class="card-footer">Masonry</div>
+          </div>
+          <div class="card card_width" >
+              <div class="card-body">
+                <img src="static/services/Handyman.png" alt="Handyman">
+              </div>
+              <div class="card-footer">Handyman</div>
+          </div>
+          <div class="card card_width" >
+            <div class="card-body">
+              <img src="static/services/Cleaning.png" alt="Cleaning">
+            </div>
+            <div class="card-footer">Cleaning</div>
+          </div>
+        </div>
       </div>
+      <div id="about_us" class="container py-5 my-5"  style="text-align: center;">
+        <h4 class="my-5">ABOUT US</h4>
+        <p>
+            Abu Hajar Technical Services (AHTS) a Dubai based specialized and professional local Supply & Service Company formed by its Chairman Mr. Ali Abu Hajar, an industry veteran entrepreneur, has full technical and logistic back up and resources from its affiliated companies & Partners in UAE, and Pantech international Ltd – UK including a direct access to their global network of leading manufacturers and supply houses
+        </p>
+        <p>
+            AHTS with its management experience and skills and dedication of its professional technical and sales team is committed to excellence and customer satisfaction and continuously working with prestigious and renowned companies from around the world to meet the expectations of our clients of a high quality reliable and efficient service.
+        </p>
+        <p>
+            We take pride in timely response to our customers needs for a reliable single source supply offering top quality innovative products and equipments and leading edge technological cost effective cooling solutions. AHTS together with its team of well trained and experienced professionals, undertake the entire range of jobs in the air conditioning and Electromechanical market in the United Arab Emirates
+        </p>
+        
+    </div>
       <div id="clients" class="container-fluid my-5 py-5">
         <h3 style="text-align: center;">OUR SATISFIED CLIENTS</h3>
         <div id="clients-details" class="d-flex justify-content-around flex-wrap">
@@ -220,7 +230,7 @@
         <div style="padding: 10px;">
           <p>Tel : +971-4-3548764.
           <p>Fax : +971-4-4224253.
-          <p>Email : ahajar@emirates.net.ae
+          <p>Email : ahajar@emirates.net.ae  &nbsp;&nbsp;&nbsp;&nbsp;
         </div>
         <div style="padding: 10px;">
           <p>Mr. Prakash / Mr. Lokesh.
