@@ -41,6 +41,10 @@
           font-weight: 300;
           padding-top: 20px;
         }
+        #clients{
+          padding-top: 90px;
+          padding-bottom: 90px;
+        }
         #clients-details img{
           width: 200px;
         }
@@ -112,6 +116,29 @@
           font-weight: 500;
           color: white;
         }
+        #reach-out-text{
+          background-color: orange;
+          text-align:center;
+          color: white;
+          padding: 140px;
+        }
+        #reach-out-text>div{
+          margin: 20px;
+        }
+        #choose-us-text>div{
+          padding-left: 60px;
+          padding-right: 60px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          width: 650px;
+        }
+        #contact-us-button>a{
+          text-decoration: none;
+          color: white;
+        }
+        #contact-us-button>a:hover{
+          color: black;
+        }
     </style>
 </head>
 <body>
@@ -159,11 +186,11 @@
     <div class="carousel-item active">
       <img src="static/svg/dubai_2.jpg" alt="Los Angeles" class="d-block" style="width:100%;height: 500px;">
       <div class="carousel-caption">
-        <h3>We offer Annual and Short Term Maintenance Contracts</h3>
+        <h3>One Place for all facilities services</h3>
         <p>For Air-conditions, Electrical installations, Plum bug, Mechanical equipments and Interiors</p>
         <div style="display: flex;justify-content: center;">
         <div id="contact-us-button">
-            Contact US
+            <a href="#contact_us">Contact US</a>
         </div>
       </div>
       </div>
@@ -229,7 +256,7 @@
           <h3 style="text-align: center;">SERVICES</h3>
           <h6 class="m-5" style="text-align: center;font-weight: 300;">AHTS specializes in Duct designing, designing of Air Conditioning systems and Heat Load Calculation. Our designing department carries out detailed studies and provides solutions in Air Conditioning, Refrigeration, Ventilation & Extract in Residential, Commercial and Industrial applications. Our main focus is in the Total Facilities Management area. In fact we are the solution providers for Mechanical, Electrical and Technical problems.</h6>
         </div>
-        <div class="my-5 d-flex justify-content-around flex-wrap" style="background-color:black">
+        <div class="mt-5 d-flex justify-content-around flex-wrap" style="background-color:black">
           <div class="card card_width" >
             <div class="card-body">
               <img src="static/services/Maintenance_contract.png" alt="Maintenance contract">
@@ -333,22 +360,84 @@
           </div>
         </div>
       </div>
-      <div id="about_us" class="container py-5 my-5"  style="text-align: center;">
-        <h4 class="my-5">ABOUT US</h4>
-        <p>
-            Abu Hajar Technical Services (AHTS) a Dubai based specialized and professional local Supply & Service Company formed by its Chairman Mr. Ali Abu Hajar, an industry veteran entrepreneur, has full technical and logistic back up and resources from its affiliated companies & Partners in UAE, and Pantech international Ltd – UK including a direct access to their global network of leading manufacturers and supply houses
-        </p>
-        <p>
-            AHTS with its management experience and skills and dedication of its professional technical and sales team is committed to excellence and customer satisfaction and continuously working with prestigious and renowned companies from around the world to meet the expectations of our clients of a high quality reliable and efficient service.
-        </p>
-        <p>
-            We take pride in timely response to our customers needs for a reliable single source supply offering top quality innovative products and equipments and leading edge technological cost effective cooling solutions. AHTS together with its team of well trained and experienced professionals, undertake the entire range of jobs in the air conditioning and Electromechanical market in the United Arab Emirates
-        </p>
-        
-    </div>
+    
+      <div>
+        <div style="display: flex;text-align: center;font-size: 30px;font-weight:400;color: white;background-image: url('static/services/plumber.jpg');">
+          <!-- <div>
+            <img src="static/services/electrician.jpg" alt="Los Angeles" class="d-block" style="width:100%;height: 250px;">
+          </div> -->
+          <div style="background: #00000063;padding: 200px;">
+            We offer a wide range of services to suit your needs; lighting maintenance which includes long-term comprehensive planned lighting maintenance programmes, cleaning and relamp, or call out and repair services. Whatever your lighting maintenance needs, we can deliver.
+          </div>
+  
+        </div>
+      </div>
+    <div style="padding-top:50px;padding-bottom:50px;">
+      <div style="text-align: center;color: black;">
+        <h1>Why Choose Us </h1>
+      </div>
+      <div id="choose-us-text" style="display:flex;flex-flow: wrap;">
+        <div>
+          <li>
+          We take pride in timely response to our customers needs for a reliable single source supply offering top quality innovative products and equipments and leading edge technological cost effective cooling solutions.
+        </li>
+        </div>
+        <div>
+          <li>AHTS specializes in Duct designing, designing of Air Conditioning systems and Heat Load Calculation.
+          </li>
+        </div>
+        <div>
+          
+          <li>Our designing department carries out detailed studies and provides solutions in Air Conditioning, Refrigeration, Ventilation & Extract in Residential, Commercial and Industrial applications.
+          </li>
+        </div>
+        <div>
+          <li>One point of contact, one invoice – all facilities services . Total facilities management – a suite of services from AHTS designed to enable you to concentrate on what you do best.
+          </li>
+        </div>
+        <div>
+          <li>We establish a team of highly qualified and experienced individuals to identify the exact spectrum of services required to meet your specific needs and then to manage and satisfy this requirement.
+          </li>
+        </div>
+        <div>
+          <li>
+          When it comes to providing technical support services, we believe there are real alternatives to doing everything yourself and one of these is to consider AHT.
+        </li>
+        </div>
 
-      <div id="clients" class="container-fluid my-5 py-5">
-        <h3 style="text-align: center;">SATISFIED CLIENTS</h3>
+      </div>
+    </div>
+      
+    <div>
+      <div style="display: flex;text-align: center;font-size: 30px;font-weight:400;color: white;background-image: url('static/services/electrician.jpg');">
+        <!-- <div>
+          <img src="static/services/electrician.jpg" alt="Los Angeles" class="d-block" style="width:100%;height: 250px;">
+        </div> -->
+        <div style="background: #00000063;padding: 200px;">
+          We have multi-skilled engineers covering the country, providing national support via our network of offices. Across the country 24 hours a day, 365 days a year we control and maintain vital services for hundreds of customers.
+        </div>
+
+      </div>
+    </div>
+    <div>
+      <div id="reach-out-text">
+        <div style="font-size: 50px;font-weight: 400;">
+          For any business inquiries feel free to reach out to us, We would like to hear from you.
+        </div>
+        <div>
+          For more inquiries please contact us
+        </div>
+        <div style="display: flex;justify-content: center;">
+          <div id="contact-us-button" style="border: 1px solid;">
+            <a href="#contact_us">Contact US</a>
+          </div>
+        </div>
+        
+      </div>
+    </di>
+
+      <div id="clients" class="container-fluid my-5">
+        <h3 style="text-align: center;margin-bottom: 40px;">SATISFIED CLIENTS</h3>
         <div id="clients-details" class="d-flex justify-content-around flex-wrap">
          <div><img src="static/clients/uae-exchange-logo.jpg" alt="uae-exchange"></div>
          <div><img src="static/clients/unigulf.png" alt="unigulf"></div>
@@ -408,6 +497,20 @@
          </div>
         </div>
       </div>
+      <div id="about_us" class="container py-5 my-5"  style="text-align: center;">
+        <h4 class="my-5">ABOUT US</h4>
+        <p>
+            Abu Hajar Technical Services (AHTS) a Dubai based specialized and professional local Supply & Service Company formed by its Chairman Mr. Ali Abu Hajar, an industry veteran entrepreneur, has full technical and logistic back up and resources from its affiliated companies & Partners in UAE, and Pantech international Ltd – UK including a direct access to their global network of leading manufacturers and supply houses
+        </p>
+        <p>
+            AHTS with its management experience and skills and dedication of its professional technical and sales team is committed to excellence and customer satisfaction and continuously working with prestigious and renowned companies from around the world to meet the expectations of our clients of a high quality reliable and efficient service.
+        </p>
+        <p>
+            We take pride in timely response to our customers needs for a reliable single source supply offering top quality innovative products and equipments and leading edge technological cost effective cooling solutions. AHTS together with its team of well trained and experienced professionals, undertake the entire range of jobs in the air conditioning and Electromechanical market in the United Arab Emirates
+        </p>
+        
+    </div>
+      
       <div id="contact_us" class="pt-5" style="background-color: black;color: white;">
         <h4 style="text-align: center;">CONTACT US</h4>
         <div class="d-flex justify-content-around pt-3 flex-wrap">
